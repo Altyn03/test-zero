@@ -1,0 +1,25 @@
+.loginForm {
+    padding: 2.5rem;
+    max-width: 416px;
+    width: 100%;
+
+    > form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        > h1 {
+            margin: 10px auto;
+        }
+    }
+}
+
+.logo {
+    background: #000;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .logo {
+        display: none;
+    }
+}

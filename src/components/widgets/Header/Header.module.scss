@@ -1,0 +1,28 @@
+.appBar {
+    position: static;
+    background: black;
+    color: white;
+    height: 10vh;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-around;
+    > a > img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .user {
+        > p {
+            font-size: 14px;
+        }
+    }
+}

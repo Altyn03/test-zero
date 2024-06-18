@@ -1,0 +1,13 @@
+.postsList {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 20px;
+    list-style-type: none;
+
+    > li {
+        > a {
+            color: inherit;
+        }
+    }
+}
